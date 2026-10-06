@@ -81,7 +81,8 @@ else:
         projects = {
             row[0]: row[1]
             for row in connection.execute(
-                "SELECT project, COUNT(*) FROM observations GROUP BY project"
+                "SELECT COALESCE(merged_into_project, project), COUNT(*) "
+                "FROM observations GROUP BY COALESCE(merged_into_project, project)"
             )
             if row[0]
         }
