@@ -1,0 +1,70 @@
+{
+  "claude": {
+    "api-impact": {
+      "model": "claude-opus-5",
+      "tools": "Read, Glob, Grep, Bash, Write, Edit"
+    },
+    "brainstorm": {
+      "model": "claude-opus-5",
+      "tools": "Read, Glob, Grep, Bash, Write, Edit"
+    },
+    "call-debugger": {
+      "tools": "Read, Glob, Grep, Bash, Write, Edit"
+    },
+    "code-reviewer": {
+      "model": "claude-opus-5",
+      "tools": "Read, Glob, Grep, Bash, Write, Edit"
+    },
+    "code-writer": {
+      "tools": "Read, Glob, Grep, Bash, Write, Edit"
+    },
+    "debug": {
+      "tools": "Read, Glob, Grep, Bash, Write, Edit"
+    },
+    "documentation-writer": {
+      "model": "claude-opus-5",
+      "tools": "Read, Glob, Grep, Bash, Write, Edit"
+    },
+    "harness-optimizer": {
+      "model": "claude-opus-5",
+      "tools": "Read, Glob, Grep, Bash, Write, Edit"
+    },
+    "i18n-writer": {
+      "model": "claude-haiku-4-5-20251001",
+      "tools": "Read, Glob, Grep, Bash, Write, Edit"
+    },
+    "implementation-planner": {
+      "tools": "Read, Glob, Grep, Bash, Write, Edit"
+    },
+    "migration-writer": {
+      "tools": "Read, Glob, Grep, Bash, Write, Edit"
+    },
+    "outbound-preflight": {
+      "tools": "Read, Glob, Grep, Bash, Write, Edit"
+    },
+    "prd-writer": {
+      "tools": "Read, Glob, Grep, Bash, Write, Edit"
+    },
+    "qa-bug-hunter": {
+      "model": "claude-opus-5",
+      "tools": "Read, Glob, Grep, Bash, Write, Edit"
+    },
+    "requirement-writer": {
+      "model": "claude-haiku-4-5-20251001",
+      "tools": "Read, Write, Edit"
+    },
+    "review-coverage": {
+      "model": "claude-sonnet-5",
+      "tools": "Glob, Grep, Read, Bash"
+    },
+    "run-test": {
+      "tools": "Read, Glob, Grep, Bash, Write, Edit, mcp__playwright__browser_navigate, mcp__playwright__browser_snapshot, mcp__playwright__browser_click, mcp__playwright__browser_type, mcp__playwright__browser_fill_form, mcp__playwright__browser_wait_for, mcp__playwright__browser_take_screenshot, mcp__playwright__browser_console_messages, mcp__playwright__browser_network_requests, mcp__playwright__browser_evaluate"
+    },
+    "voice-provider-scaffolder": {
+      "tools": "Read, Glob, Grep, Bash, Write, Edit"
+    },
+    "webhook-inspector": {
+      "tools": "Read, Glob, Grep, Bash, Write, Edit"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+# Credentials — MCP server definitions inherit tokens from native provider configs.
+workspace/.agent-harness/mcp/servers.json
+
+# Generated provider adapters — rebuilt by `python3 .agent-harness/sync.py`.
+workspace/.agent-harness/generated/
+
+# Local snapshots and scratch state.
+**/backups/
+**/tmp/
+
+__pycache__/
+*.pyc
+.DS_Store
